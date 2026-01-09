@@ -33,3 +33,13 @@ if True and 'yes':
 print("\n--- any string (other than an empty string) is True ---")
 print(bool("hello"))
 print(bool(""))
+
+
+
+print("\n\n--- parentheses matter (we'll fix this) ---")
+happy = "yes"
+fun = "no"
+if happy == "yes" or happy == "y" and fun == "yes" or fun == "y":
+    print("you're invited to the party!")
+else:
+    print("sorry, not invited")
