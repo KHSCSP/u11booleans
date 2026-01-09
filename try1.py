@@ -1,6 +1,8 @@
-# ---- near 100 ----
-# TODO input an integer
-# TODO determine if that number is no more than 10 away from 100
+'''
+    near_100   
+    Given an int n,
+    return True if it is within 10 of 100 or 200.
+'''
 # version 1 - compound
 
 
@@ -16,8 +18,17 @@
 
 
 
-# ----the parrot should not talk between 9pm and 7am----
-# ----military time: midnight = 0, then 1,2,3,...,11,12,13,14,15...
+
+
+
+'''
+    Parrot trouble
+    We have a loud talking parrot. 
+    The "hour" value is the current hour time in the range 0..23. 
+    We are in trouble if the parrot is talking and the hour is before 7 or after 20. 
+    Return True if we are in trouble.
+    note, military time: midnight = 0, then 1,2,3,...,11,12,13,14,15...
+'''
 # TODO input the hour (an integer between 0 and 23)
 # TODO input whether the parrot is talking (allow 'yes' or 'y')
 # TODO determine if the parrot is in trouble
