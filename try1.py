@@ -1,3 +1,13 @@
+print("\n\n--- parentheses matter (we'll fix this) ---")
+happy = "yes"
+fun = "no"
+if happy == "yes" or happy == "y" and fun == "yes" or fun == "y":
+    print("you're invited to the party!")
+else:
+    print("sorry, not invited")
+
+
+
 '''
     near_100   
     Given an int n,
