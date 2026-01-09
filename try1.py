@@ -1,6 +1,6 @@
-# ----no more than 10 away from 100----
+# ---- near 100 ----
 # TODO input an integer
-# TODO determine if that number is near 100 
+# TODO determine if that number is no more than 10 away from 100
 # version 1 - compound
 
 
