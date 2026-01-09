@@ -24,8 +24,12 @@ print(True and 'yes')
 print(False and 'yes')
 
 
-# those middle two...
+# explaining those middle two from above...
 if False or 'bologna':
     print("yep")
 if True and 'yes':
     print("yep again")
+
+print("\n--- any string (other than an empty string) is True ---")
+print(bool("hello"))
+print(bool(""))
